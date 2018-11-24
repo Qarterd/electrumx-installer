@@ -3,7 +3,8 @@ if [ "$VERSION_ID" != "16.04" ] && [ "$VERSION_ID" != "18.04" ]; then
 fi
 
 . distributions/base.sh
-. distributions/base-systemd.sh
+#. distributions/base-systemd.sh
+. distributions/base-init.d.sh
 . distributions/base-debianoid.sh
 . distributions/base-compile-rocksdb.sh
 
