@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://raw.githubusercontent.com/bauerj/electrumx-installer/master/bootstrap.sh -O - | bash
+    wget https://raw.githubusercontent.com/Qarterd/electrumx-installer/master/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,7 +21,7 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://raw.githubusercontent.com/bauerj/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://raw.githubusercontent.com/Qarterd/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
 
      
 ## Operating System Compatibility
@@ -30,7 +30,7 @@ The following operating systems are officially supported and automatically being
 
 | OS | Status |
 |----------|---:|
-| Ubuntu 18.04   | [![ubuntu](https://badges.herokuapp.com/travis/bauerj/electrumx-installer?env=IMAGE=%22ubuntu:18.04%22&label=ubuntu:18.04)](https://travis-ci.org/bauerj/electrumx-installer/) |
+| WSL / Ubuntu 18.04 | [![ubuntu](https://badges.herokuapp.com/travis/bauerj/electrumx-installer?env=IMAGE=%22ubuntu:18.04%22&label=ubuntu:18.04)](https://travis-ci.org/bauerj/electrumx-installer/) |
 | Debian Jessie  | [![debian](https://badges.herokuapp.com/travis/bauerj/electrumx-installer?env=IMAGE=%22debian:8%22&label=debian:8)](https://travis-ci.org/bauerj/electrumx-installer/) |
 | Fedora 29      | [![centos](https://badges.herokuapp.com/travis/bauerj/electrumx-installer?env=IMAGE=%22fedora:28%22&label=fedora:28)](https://travis-ci.org/bauerj/electrumx-installer/) |
 | Ubuntu 16.04   | [![ubuntu](https://badges.herokuapp.com/travis/bauerj/electrumx-installer?env=IMAGE=%22ubuntu:16.04%22&label=ubuntu:16.04)](https://travis-ci.org/bauerj/electrumx-installer/) |
